@@ -30,15 +30,18 @@ const Footer = () => {
 
       {/* for the copy right */}
 
-      <div className='w-max border border-peach p-5 max-auto flex gap-5 tablet:gap-10 flex-col tablet:flex-row items-center rounded-lg mt-5'>
-        {
-          contactDetails.map((detail, index) =>
-          <div key={index} className='flex gap-3 items-center text-purple'>
+      <div className="flex items-center justify-center">
+      <div className="w-max border border-peach p-5 max-auto flex gap-5 tablet:gap-10 flex-col tablet:flex-row items-center rounded-lg mt-5">
+        {contactDetails.map((detail, index) => (
+          <div key={index} className="flex gap-3 items-center text-purple">
             <detail.icon size={20} />
-            <p className='text-gray-600'>{detail.text}</p>
-            </div>
-          )
-        }
+            <p className="text-gray-600">{detail.text}</p>
+          </div>
+        ))}
+      </div>
+    
+          
+        
 
       </div>
 

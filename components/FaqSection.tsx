@@ -10,7 +10,7 @@ const FaqSection = () => {
     <section className='max-width section-padding overflow-hidden'>
         <SectionHeading 
         title='Frequently Asked Question'
-        subtitle='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eos esse odio ea sed veritatis sequi ad excepturi minima alias.'
+        subtitle=''
         />
 
         <div className='flex flex-col tablet:flex-row gap-5 items-start'>
@@ -29,7 +29,7 @@ const FaqSection = () => {
     Still have any questions
     </h5>
     <p className='text-gray-600'>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam voluptatum, voluptatibus delectus rerum fugit corrupti vero necessitatibus, alias consequuntur dicta, atque accusantium facere quia aperiam vel autem sequi magnam.
+    If you have any questions or need further information, please feel free to reach out. I’m here to provide more details and assist you with any inquiries you may have.
     </p>
   </div>
            <Link href={"/contact"} className='btn btn-primary w-max' >

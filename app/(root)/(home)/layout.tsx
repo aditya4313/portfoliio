@@ -7,10 +7,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <>
    
       <Header />
-      {children}
-       <div  className="flex flex-col min-h-screen" >
-      <Footer />
+     
+       <div   >
+       {children}
       </div>
+      <Footer />
     </>
   );
 };

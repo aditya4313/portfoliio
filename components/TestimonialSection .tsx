@@ -30,7 +30,7 @@ const TestimonialSection = () => {
       <section className='max-width section-padding'>
         <SectionHeading
           title='What my Clients say about me'
-          subtitle='Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolore necessitatibus, tempore qui ipsam ducimus ab facilis architecto repudiandae ipsa ullam commodi consequatur totam minus inventore quidem fuga aspernatur facere.'
+          subtitle='My clients appreciate my dedication to delivering high-quality solutions and my ability to address their needs with precision. They value my commitment to excellence and my proactive approach in ensuring their projects exceed expectations.'
         />
 
         <div className='pb-3 border-peach flex justify-between items-center'>

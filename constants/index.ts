@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
+import { Facebook, Instagram, InstagramIcon, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
 
 export const navLinks = [
   {
@@ -97,7 +97,7 @@ export const benefits = [
 export const portfolios = [
   {
     id: 1,
-    title: "Z - Aura Perfume Website",
+    title: "AI-Mock Interview",
     link: "#",
     images: [
       "/images/portfolio-1.png",
@@ -107,7 +107,7 @@ export const portfolios = [
   },
   {
     id: 2,
-    title: "Forhelp Charity Website",
+    title: "Food-order App",
     link: "#",
     images: [
       "/images/portfolio-2.png",
@@ -117,7 +117,7 @@ export const portfolios = [
   },
   {
     id: 3,
-    title: "Skill Bridge Website",
+    title: "cryptocurrency-tracker",
     link: "#",
     images: [
       "/images/portfolio-3.png",
@@ -127,7 +127,7 @@ export const portfolios = [
   },
   {
     id: 4,
-    title: "Current Vandi Website",
+    title: "Quiz App",
     link: "#",
     images: [
       "/images/portfolio-4.png",
@@ -137,7 +137,7 @@ export const portfolios = [
   },
   {
     id: 5,
-    title: "Fit Fusion Gym Website",
+    title: "Task Managment",
     link: "#",
     images: [
       "/images/portfolio-5.png",
@@ -147,7 +147,7 @@ export const portfolios = [
   },
   {
     id: 6,
-    title: "DX Digital Agency Website",
+    title: "Investment calculator",
     link: "#",
     images: [
       "/images/portfolio-6.png",
@@ -157,7 +157,7 @@ export const portfolios = [
   },
   {
     id: 7,
-    title: "Little Learners Website",
+    title: "Tic Tac Toe",
     link: "#",
     images: [
       "/images/portfolio-7.png",
@@ -165,34 +165,15 @@ export const portfolios = [
       "/images/portfolio-9.png",
     ],
   },
-  {
-    id: 8,
-    title: "StreamVibe Website",
-    link: "#",
-    images: [
-      "/images/portfolio-8.png",
-      "/images/portfolio-9.png",
-      "/images/portfolio-4.png",
-    ],
-  },
-  {
-    id: 9,
-    title: "YourBank Website",
-    link: "#",
-    images: [
-      "/images/portfolio-9.png",
-      "/images/portfolio-4.png",
-      "/images/portfolio-5.png",
-    ],
-  },
+  
 ];
 export const reviews = [
   {
     id: 1,
-    name: "Sarah Thompson",
-    designation: "CEO Texo",
+    name: "Ananya Sharma",
+    designation: "Student, Computer Science, NSUT",
     review:
-      "Waseem Anjum is an incredibly talented web develioper. His attention to detail and creative flair are unmatched. He took my website from ordinary to extraordinary, capturing the essence of my brand perfectly. Working with Waseem was a breeze, as he listened to my needs and provided expert guidance throughout the design process. I highly recommend Waseem for anyone looking to elevate their online presence.",
+      "Roushan is a remarkable web developer whose work truly stands out. His innovative designs and attention to detail significantly improved our website’s appearance and functionality. Roushan’s professionalism and ability to understand our needs made the entire process smooth and efficient. I highly recommend him for any web development project.",
     stars: 5,
     socialLinks: [
       {
@@ -214,10 +195,10 @@ export const reviews = [
   },
   {
     id: 2,
-    name: "Emily Roberts",
-    designation: "CEO Texo",
+    name: "Amit Patel",
+    designation: "Student, Electronics, NSUT",
     review:
-      "Waseem Anjum is an incredibly talented web develioper. His attention to detail and creative flair are unmatched. He took my website from ordinary to extraordinary, capturing the essence of my brand perfectly. Working with Waseem was a breeze, as he listened to my needs and provided expert guidance throughout the design process. I highly recommend Waseem for anyone looking to elevate their online presence.",
+      "The talent Roushan brings to web development is exceptional. His creative approach and technical expertise transformed our digital platform into something extraordinary. Roushan’s dedication and skill in capturing the essence of our requirements were evident throughout the project. He comes highly recommended for anyone looking to elevate their online presence.",
     stars: 3,
     socialLinks: [
       {
@@ -239,10 +220,10 @@ export const reviews = [
   },
   {
     id: 3,
-    name: "Emily Roberts",
-    designation: "CEO Texo",
+    name: "Priya Desai",
+    designation: "Student, Mechanical Engineering, NSUT",
     review:
-      "Waseem Anjum is an incredibly talented web develioper. His attention to detail and creative flair are unmatched. He took my website from ordinary to extraordinary, capturing the essence of my brand perfectly. Working with Waseem was a breeze, as he listened to my needs and provided expert guidance throughout the design process. I highly recommend Waseem for anyone looking to elevate their online presence.",
+      "Roushan web development skills are top-notch. His ability to create visually appealing and user-friendly designs greatly enhanced our website. His responsiveness and commitment to delivering high-quality results were truly impressive. Roushan is highly recommended for his outstanding work and innovative solutions.",
     stars: 5,
     socialLinks: [
       {
@@ -289,10 +270,10 @@ export const reviews = [
   },
   {
     id: 5,
-    name: "Emily Roberts",
-    designation: "CEO Texo",
+    name: "Vikram Singh",
+    designation: "Student, Civil Engineering, NSUT",
     review:
-      "Waseem Anjum is an incredibly talented web develioper. His attention to detail and creative flair are unmatched. He took my website from ordinary to extraordinary, capturing the essence of my brand perfectly. Working with Waseem was a breeze, as he listened to my needs and provided expert guidance throughout the design process. I highly recommend Waseem for anyone looking to elevate their online presence.",
+      "Working with Roushan was a fantastic experience. His expertise in web development and keen eye for design brought our project to life in a way we hadn’t imagined. Roushan’s ability to integrate our feedback seamlessly and his overall professionalism make him an excellent choice for any web development needs.",
     stars: 4,
     socialLinks: [
       {
@@ -350,66 +331,73 @@ export const socialLinks = [
     id: 1,
     label: "Facebook",
     icon: Facebook,
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=100089583371937",
   },
   {
     id: 2,
     label: "Linkedin",
     icon: Linkedin,
-    url: "#",
+    url: "https://www.linkedin.com/in/roushan-kumar-b9a21b257/",
   },
   {
     id: 3,
     label: "Twitter",
-    icon: Twitter,
-    url: "#",
+    icon: InstagramIcon,
+    url: "https://www.instagram.com/aadit_ya25.me?igsh=MWZ3cTJzajFjaW91NA==",
   },
 ];
 export const contactDetails = [
   {
     id: 1,
     icon: Phone,
-    text: "+92 333 1234567",
+    text: "8873542169",
   },
   {
     id: 2,
     icon: Mail,
-    text: "waseemaofficial@gmail.com",
+    text: "adityaevan433@gmail.com",
   },
   {
     id: 3,
     icon: MapPin,
-    text: "Lahore, Pakistan",
+    text: "Delhi,india",
   },
 ];
 export const timeline = [
   {
     id: 1,
-    title: "Senior Web Developer",
-    duration: "2018 - Present",
+    title: "class-X",
+    duration: "2020",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "did my 10th std from Bihar,patna",
   },
   {
     id: 2,
-    title: "Web Developer",
-    duration: "2015 - 2018",
+    title: "Class-XII",
+    duration: "2020-22",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "Shifted to Delhi for higher studies",
   },
   {
     id: 3,
-    title: "Junior Web Developer",
-    duration: "2013 - 2015",
+    title: "IIT-JEE",
+    duration: "2022",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "Cracked JEE, WBJEE, VITEEE , NDA",
   },
   {
     id: 4,
-    title: "Degree in Computer Science",
-    duration: "2010 - 2013",
+    title: "NSUT",
+    duration: "2022-26",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "got admission in NSUT",
+  },
+  {
+    id: 5,
+    title: "Internship",
+    duration: "2024",
+    description:
+      "got my first intern.",
   },
   
 ];

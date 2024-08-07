@@ -22,7 +22,7 @@ const page = () => {
             <p className='px-4 py-2 bg-peach-500 text-grey-600 w-max rounded'> Hello There🤗 </p>
             <h1>Roushan welcomes you</h1>
             <p className='text-gray-600'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero id beatae aspernatur illo velit reprehenderit iste. Enim quod nobis autem aliquam placeat eius libero incidunt velit, veniam nam quibusdam debitis?
+            Hello! I'm Roushan Kumar, a dedicated and passionate Electronics and Communication Engineering student at Netaji Subhas University of Technology. With a keen interest in coding and electronics, I have honed my skills in various technologies, including React, Tailwind CSS, and Python.
             </p>
           </div>
           <div className="flex gap-5 mt-10 justify-center tablet:justify-start">
@@ -30,7 +30,7 @@ const page = () => {
               <Phone />
               Contact Now
             </Link>
-            <Link href={"/contact"} className="btn">
+            <Link href={"/portfolio"} className="btn">
               View Portfolio
               <ArrowRight size={16} />
             </Link>
@@ -72,7 +72,7 @@ const page = () => {
 
     <SectionHeading 
     title="Creative Skills"
-    subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, est harum maiores dolore officiis eveniet maxime."
+    subtitle="I excel in designing intuitive user interfaces and crafting unique solutions using tools like React and Tailwind CSS. My creativity drives me to approach challenges with innovative ideas, ensuring engaging and effective results."
     />
    
    {/* skills */}
@@ -105,7 +105,7 @@ const page = () => {
   {/* benefit section */}
   <section className='max-width section-padding'>
 <SectionHeading title='Benefits'
-subtitle=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui dolores amet perspiciatis? Sapiente, magnam?' />
+subtitle=' By leveraging my skills in technology and design, I deliver solutions that enhance user experiences and streamline processes. My approach ensures efficient, innovative results that drive growth and address key challenges effectively.' />
 
   <div className='grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6 mb-3 tablet:mb-6'>
 
@@ -157,7 +157,7 @@ subtitle=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui
    <section className='section-padding max-width'>
       <SectionHeading
        title="My Works"
-       subtitle="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nulla nemo ab esse autem quas quod qui et consectetur. Tempora?"
+       subtitle="I have developed a range of projects that showcase my skills in creating impactful solutions and designs. From interactive web applications to innovative tech integrations, my portfolio highlights my ability to turn ideas into functional, user-centric products"
       />
       <div className='grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6 '>
         {

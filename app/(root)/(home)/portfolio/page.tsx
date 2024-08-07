@@ -18,7 +18,7 @@ const Page = () => {
         </div>
         <h2 className="text-gray-700">My Creative Portfolios</h2>
         <p className="text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veritatis illo laborum repellendus porro totam! Aut recusandae dolore, blanditiis quibusdam quos adipisci ab voluptatem atque delectus nesciunt voluptate quam nihil.
+        My creative portfolio showcases a range of innovative projects and designs that reflect my expertise and vision. Each piece demonstrates my commitment to delivering exceptional and impactful solutions.
         </p>
         </div>
       </section>

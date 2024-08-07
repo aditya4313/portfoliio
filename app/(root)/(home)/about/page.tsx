@@ -16,7 +16,7 @@ const page = () => {
    <section className='max-width section-padding flex flex-col tablet:flex-row gap-20 items-center'>
     <div className='relative w-full tablet:w-1/2 h-[calc{300px+20vw)] tablet:h-[600px]'>
         <Image
-        src = {"/images/about.png"}
+        src = {"/images/abot.png"}
         fill alt='about img'
         className='object-cover' />
     </div>
@@ -27,7 +27,16 @@ const page = () => {
 </p>
 <h1 className='text-grey-700'>I'm Roushan</h1>
 <p className='text-grey-600'>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, suscipit doloribus quos adipisci fugit illo, aut laudantium, quaerat corrupti expedita porro alias ex placeat veniam. Sapiente aliquid temporibus id facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam reprehenderit excepturi magni inventore quisquam eveniet a saepe iure, aspernatur labore?
+I'm Roushan, an Electronics and Communication Engineering student with a strong passion for web design. I excel in creating intuitive user interfaces using React and Tailwind CSS, delivering visually engaging and functional solutions.
+<br/>
+<br/>
+
+In addition to web development, I have a solid background in Data Structures and Algorithms (DSA) and Competitive Programming (CP). My expertise in DSA enables me to tackle complex problems efficiently, while my CP experience sharpens my coding skills and problem-solving abilities.
+<br/>
+<br/>
+My approach combines meticulous attention to detail with creative thinking, ensuring high-quality results. I prioritize clear communication with clients to bring their visions to life. My portfolio reflects my commitment to excellence and my capability as a skilled coder.
+
+
 </p>
 </div>
    </div>
@@ -38,7 +47,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, suscipit dolo
    <section className="max-w-full section-padding">
     <SectionHeading
         title="Milestone of my Career"
-        subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, numquam quam. Est vitae ipsa nihil tenetur nostrum enim praesentium! Repudiandae quae hic qui numquam commodi illo eum esse explicabo nam."
+        subtitle=""
     />
     <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:translate-x-px tablet:before:mx-auto tablet:before:translate-x-0 before:h-full before:w-0.5 before:bg-purple before:bg-opacity-30">
         {timeline.map((item, index) => (
@@ -59,7 +68,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, suscipit dolo
         ))}
     </div>
 </section>
-
+ 
    
    </>
   )
